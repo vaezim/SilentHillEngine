@@ -3,6 +3,9 @@ file(
     GLOB SH_ENGINE_SRC
     "./glad/*.c"
     "./glad/*.cpp"
+    "./room/*.cpp"
+    "./game/*.cpp"
+    "./callbacks/*.cpp"
 )
 
 # SHengine static library (../output/lib/libSHengine.a)
